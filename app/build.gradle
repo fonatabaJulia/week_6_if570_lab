@@ -19,7 +19,10 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-kapt'
+<<<<<<< HEAD
 apply plugin: 'kotlin-android-extensions'
+=======
+>>>>>>> ac4bc23a0b6c13ccdb664d0dcc7cdc3f61a1a227
 
 android {
     compileSdkVersion 30
@@ -30,6 +33,10 @@ android {
         vectorDrawables.useSupportLibrary = true
         versionCode 1
         versionName "1.0"
+<<<<<<< HEAD
+=======
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+>>>>>>> ac4bc23a0b6c13ccdb664d0dcc7cdc3f61a1a227
     }
     buildTypes {
         release {
@@ -52,7 +59,10 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation "com.google.android.material:material:1.2.1"
+<<<<<<< HEAD
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
     implementation "com.google.android.material:material:$version"
+=======
+>>>>>>> ac4bc23a0b6c13ccdb664d0dcc7cdc3f61a1a227
 }

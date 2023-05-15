@@ -34,7 +34,10 @@
     <string name="congratulations">Congratulations!</string>
     <string name="share">Share</string>
     <string name="sharing_not_available">Sharing Not Available</string>
+<<<<<<< HEAD
 
+=======
+>>>>>>> ac4bc23a0b6c13ccdb664d0dcc7cdc3f61a1a227
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

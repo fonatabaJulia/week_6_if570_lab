@@ -23,7 +23,10 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+<<<<<<< HEAD
 import androidx.navigation.findNavController
+=======
+>>>>>>> ac4bc23a0b6c13ccdb664d0dcc7cdc3f61a1a227
 import com.example.android.navigation.databinding.FragmentGameBinding
 
 class GameFragment : Fragment() {
@@ -100,6 +103,7 @@ class GameFragment : Fragment() {
                         binding.invalidateAll()
                     } else {
                         // We've won!  Navigate to the gameWonFragment.
+<<<<<<< HEAD
                         view.findNavController()
                             .navigate(R.id.action_gameFragment_to_gameWonFragment)
                     }
@@ -107,6 +111,11 @@ class GameFragment : Fragment() {
                     // Game over! A wrong answer sends us to the gameOverFragment.
                     view.findNavController().
                     navigate(R.id.action_gameFragment_to_gameOverFragment)
+=======
+                    }
+                } else {
+                    // Game over! A wrong answer sends us to the gameOverFragment.
+>>>>>>> ac4bc23a0b6c13ccdb664d0dcc7cdc3f61a1a227
                 }
             }
         }

@@ -19,6 +19,7 @@ package com.example.android.navigation
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
+<<<<<<< HEAD
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
@@ -26,10 +27,16 @@ import com.example.android.navigation.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var drawerLayout: DrawerLayout
+=======
+import com.example.android.navigation.databinding.ActivityMainBinding
+
+class MainActivity : AppCompatActivity() {
+>>>>>>> ac4bc23a0b6c13ccdb664d0dcc7cdc3f61a1a227
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         @Suppress("UNUSED_VARIABLE")
         val binding = DataBindingUtil.setContentView<ActivityMainBinding>(this, R.layout.activity_main)
+<<<<<<< HEAD
         drawerLayout = binding.drawerLayout
         val navController = this.findNavController(R.id.myNavHostFragment)
 
@@ -43,6 +50,10 @@ class MainActivity : AppCompatActivity() {
     }
 
 
+=======
+    }
+
+>>>>>>> ac4bc23a0b6c13ccdb664d0dcc7cdc3f61a1a227
     // TODO (01) Create the new TitleFragment
     // Select File->New->Fragment->Fragment (Blank)
 
